@@ -371,7 +371,7 @@ I started by focusing on detections, but I finished by appreciating the importan
 
 I learned that even the best detection rules become unreliable if the underlying data isn't trustworthy.
 
-I also saw how small implementation decisions—like batch processing or filtering data before joining large datasets—can have a significant impact on performance.
+I also saw how small implementation decisions, like batch processing or filtering data before joining large datasets, can have a significant impact on performance.
 
 Most importantly, I learned that successful security operations depend on building reliable systems that analysts can trust.
 
