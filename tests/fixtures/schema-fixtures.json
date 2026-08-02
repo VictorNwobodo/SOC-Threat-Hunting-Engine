@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "fixtures": [
+    { "id": "AUTH-V1", "source": "auth", "input": { "schema_version": "1", "timestamp": "2026-07-13T08:00:00Z", "username": "a", "action": "login_success" }, "expected": { "time": "2026-07-13T08:00:00Z", "identity": "a", "event_type": "login_success" } },
+    { "id": "AUTH-V2", "source": "auth", "input": { "schema_version": "2", "event_time": "2026-07-13T08:00:00Z", "identity": "a", "result": "login_success" }, "expected": { "time": "2026-07-13T08:00:00Z", "identity": "a", "event_type": "login_success" } },
+    { "id": "AUTH-V3", "source": "auth", "input": { "schema_version": "3", "time": "2026-07-13T08:00:00Z", "record": { "username": "a", "action": "login_success" } }, "expected": { "time": "2026-07-13T08:00:00Z", "identity": "a", "event_type": "login_success" } },
+    { "id": "WEB-V1", "source": "web", "input": { "schema_version": "1", "timestamp": "2026-07-13T08:00:00Z", "method": "GET", "path": "/" }, "expected": { "event_type": "web_request" } },
+    { "id": "WEB-V2", "source": "web", "input": { "schema_version": "2", "event_time": "2026-07-13T08:00:00Z", "method": "GET", "path": "/" }, "expected": { "event_type": "web_request" } },
+    { "id": "WEB-V3", "source": "web", "input": { "schema_version": "3", "time": "2026-07-13T08:00:00Z", "record": { "method": "GET", "path": "/" } }, "expected": { "event_type": "web_request" } },
+    { "id": "DNS-V1", "source": "dns", "input": { "schema_version": "1", "timestamp": "2026-07-13T08:00:00Z", "query": "x.invalid" }, "expected": { "event_type": "dns_query" } },
+    { "id": "DNS-V2", "source": "dns", "input": { "schema_version": "2", "event_time": "2026-07-13T08:00:00Z", "query": "x.invalid" }, "expected": { "event_type": "dns_query" } },
+    { "id": "DNS-V3", "source": "dns", "input": { "schema_version": "3", "time": "2026-07-13T08:00:00Z", "record": { "query": "x.invalid" } }, "expected": { "event_type": "dns_query" } },
+    { "id": "FIREWALL-V1", "source": "firewall", "input": { "schema_version": "1", "timestamp": "2026-07-13T08:00:00Z", "action": "deny" }, "expected": { "event_type": "network_deny" } },
+    { "id": "FIREWALL-V2", "source": "firewall", "input": { "schema_version": "2", "event_time": "2026-07-13T08:00:00Z", "result": "deny" }, "expected": { "event_type": "network_deny" } },
+    { "id": "FIREWALL-V3", "source": "firewall", "input": { "schema_version": "3", "time": "2026-07-13T08:00:00Z", "record": { "action": "deny" } }, "expected": { "event_type": "network_deny" } },
+    { "id": "ENDPOINT-V1", "source": "endpoint", "input": { "schema_version": "1", "timestamp": "2026-07-13T09:05:00Z", "event": "process_start" }, "clock_offset_seconds": -3900, "expected": { "time": "2026-07-13T08:00:00Z", "event_type": "process_start" } },
+    { "id": "ENDPOINT-V2", "source": "endpoint", "input": { "schema_version": "2", "event_time": "2026-07-13T09:05:00Z", "event_name": "process_start" }, "clock_offset_seconds": -3900, "expected": { "time": "2026-07-13T08:00:00Z", "event_type": "process_start" } },
+    { "id": "ENDPOINT-V3", "source": "endpoint", "input": { "schema_version": "3", "time": "2026-07-13T09:05:00Z", "record": { "event": "process_start" } }, "clock_offset_seconds": -3900, "expected": { "time": "2026-07-13T08:00:00Z", "event_type": "process_start" } },
+    { "id": "MALFORMED-JSON", "source": "auth", "input": "{broken", "expected": { "quarantine_reason": "invalid_json" } },
+    { "id": "MISSING-TIME", "source": "auth", "input": { "schema_version": "2", "identity": "a" }, "expected": { "quarantine_reason": "missing_time" } },
+    { "id": "IDENTITY-ALIAS", "aliases": ["amina@example.invalid", "EXAMPLE\\amina"], "expected": { "canonical_identity": "amina" } }
+  ]
+}

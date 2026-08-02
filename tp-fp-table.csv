@@ -1,0 +1,97 @@
+activity_id,disposition,rationale,evidence_locators
+REVIEW-0202,FALSE_POSITIVE,Valid approved change record CHG-81A4FA070A covering asset asset-011 and actor svc-023,discrepancy.json:CHG-81A4FA070A
+REVIEW-0064,FALSE_POSITIVE,Valid approved change record CHG-91A732710C covering asset asset-017 and actor svc-029,discrepancy.json:CHG-91A732710C
+REVIEW-0270,FALSE_POSITIVE,Valid approved change record CHG-583B149127 covering asset asset-031 and actor svc-019,discrepancy.json:CHG-583B149127
+REVIEW-0148,FALSE_POSITIVE,Valid approved change record CHG-5982032445 covering asset asset-005 and actor svc-005,discrepancy.json:CHG-5982032445
+REVIEW-0259,FALSE_POSITIVE,Valid approved change record CHG-5CC0D35326 covering asset asset-020 and actor svc-008,discrepancy.json:CHG-5CC0D35326
+REVIEW-0200,FALSE_POSITIVE,Valid approved change record CHG-D21A38E547 covering asset asset-009 and actor svc-021,discrepancy.json:CHG-D21A38E547
+REVIEW-0299,FALSE_POSITIVE,Valid approved change record CHG-F64A56EF4E covering asset asset-012 and actor svc-012,discrepancy.json:CHG-F64A56EF4E
+REVIEW-0372,FALSE_POSITIVE,Valid approved change record CHG-CCE3564483 covering asset asset-037 and actor svc-013,discrepancy.json:CHG-CCE3564483
+REVIEW-0255,FALSE_POSITIVE,Valid approved change record CHG-D23EF6B95D covering asset asset-016 and actor svc-004,discrepancy.json:CHG-D23EF6B95D
+REVIEW-0209,FALSE_POSITIVE,Valid approved change record CHG-5EF5704F32 covering asset asset-018 and actor svc-030,discrepancy.json:CHG-5EF5704F32
+REVIEW-0277,FALSE_POSITIVE,Valid approved change record CHG-48786F1031 covering asset asset-038 and actor svc-026,discrepancy.json:CHG-48786F1031
+REVIEW-0193,FALSE_POSITIVE,Valid approved change record CHG-7610F6C47D covering asset asset-002 and actor svc-014,discrepancy.json:CHG-7610F6C47D
+REVIEW-0333,FALSE_POSITIVE,Valid approved change record CHG-34A4148438 covering asset asset-046 and actor svc-010,discrepancy.json:CHG-34A4148438
+REVIEW-0030,FALSE_POSITIVE,Valid approved change record CHG-6DC5D1640A covering asset asset-031 and actor svc-031,discrepancy.json:CHG-6DC5D1640A
+REVIEW-0155,FALSE_POSITIVE,Valid approved change record CHG-A39F2B567D covering asset asset-012 and actor svc-012,discrepancy.json:CHG-A39F2B567D
+REVIEW-0230,FALSE_POSITIVE,Valid approved change record CHG-F057C127E5 covering asset asset-039 and actor svc-015,discrepancy.json:CHG-F057C127E5
+REVIEW-0257,FALSE_POSITIVE,Valid approved change record CHG-B14026392C covering asset asset-018 and actor svc-006,discrepancy.json:CHG-B14026392C
+REVIEW-0022,FALSE_POSITIVE,Valid approved change record CHG-93AFC6ABF0 covering asset asset-023 and actor svc-023,discrepancy.json:CHG-93AFC6ABF0
+REVIEW-0306,FALSE_POSITIVE,Valid approved change record CHG-07AD083112 covering asset asset-019 and actor svc-019,discrepancy.json:CHG-07AD083112
+REVIEW-0157,TRUE_POSITIVE,Change approval mismatch in CHG-EDA9356D8A: Unapproved actor 'svc-unapproved',discrepancy.json:CHG-EDA9356D8A
+REVIEW-0095,FALSE_POSITIVE,Valid approved change record CHG-BDD9E9867A covering asset asset-048 and actor svc-024,discrepancy.json:CHG-BDD9E9867A
+REVIEW-0261,FALSE_POSITIVE,Valid approved change record CHG-41E938C882 covering asset asset-022 and actor svc-010,discrepancy.json:CHG-41E938C882
+REVIEW-0147,FALSE_POSITIVE,Valid approved change record CHG-24B0CC831C covering asset asset-004 and actor svc-004,discrepancy.json:CHG-24B0CC831C
+REVIEW-0015,FALSE_POSITIVE,Valid approved change record CHG-4EB0C65B03 covering asset asset-016 and actor svc-016,discrepancy.json:CHG-4EB0C65B03
+REVIEW-0071,TRUE_POSITIVE,Change approval mismatch in CHG-4864F1ED44: Status is PENDING,discrepancy.json:CHG-4864F1ED44
+REVIEW-0014,FALSE_POSITIVE,Valid approved change record CHG-4853D0FBE7 covering asset asset-015 and actor svc-015,discrepancy.json:CHG-4853D0FBE7
+REVIEW-0130,FALSE_POSITIVE,Valid approved change record CHG-852A468647 covering asset asset-035 and actor svc-023,discrepancy.json:CHG-852A468647
+REVIEW-0258,FALSE_POSITIVE,Valid approved change record CHG-AB24849469 covering asset asset-019 and actor svc-007,discrepancy.json:CHG-AB24849469
+REVIEW-0236,FALSE_POSITIVE,Valid approved change record CHG-4AE69F319C covering asset asset-045 and actor svc-021,discrepancy.json:CHG-4AE69F319C
+REVIEW-0003,FALSE_POSITIVE,Valid approved change record CHG-CD584BA403 covering asset asset-004 and actor svc-004,discrepancy.json:CHG-CD584BA403
+REVIEW-0278,FALSE_POSITIVE,Valid approved change record CHG-63EE3F7742 covering asset asset-039 and actor svc-027,discrepancy.json:CHG-63EE3F7742
+REVIEW-0364,FALSE_POSITIVE,Valid approved change record CHG-A55DA56748 covering asset asset-029 and actor svc-005,discrepancy.json:CHG-A55DA56748
+REVIEW-0352,FALSE_POSITIVE,Valid approved change record CHG-4A25BBC630 covering asset asset-017 and actor svc-029,discrepancy.json:CHG-4A25BBC630
+REVIEW-0370,TRUE_POSITIVE,Change approval mismatch in CHG-83F819504E: Invalid approver 'requestor-only',discrepancy.json:CHG-83F819504E
+REVIEW-0243,FALSE_POSITIVE,Valid approved change record CHG-84716EBF56 covering asset asset-004 and actor svc-028,discrepancy.json:CHG-84716EBF56
+REVIEW-0233,FALSE_POSITIVE,Valid approved change record CHG-1ED0C984A2 covering asset asset-042 and actor svc-018,discrepancy.json:CHG-1ED0C984A2
+REVIEW-0156,FALSE_POSITIVE,Valid approved change record CHG-70E6323541 covering asset asset-013 and actor svc-013,discrepancy.json:CHG-70E6323541
+REVIEW-0204,FALSE_POSITIVE,Valid approved change record CHG-F386C1091B covering asset asset-013 and actor svc-025,discrepancy.json:CHG-F386C1091B
+REVIEW-0315,FALSE_POSITIVE,Valid approved change record CHG-EC586AA0B8 covering asset asset-028 and actor svc-028,discrepancy.json:CHG-EC586AA0B8
+REVIEW-0234,FALSE_POSITIVE,Valid approved change record CHG-F120D88548 covering asset asset-043 and actor svc-019,discrepancy.json:CHG-F120D88548
+REVIEW-0314,FALSE_POSITIVE,Valid approved change record CHG-284055F35C covering asset asset-027 and actor svc-027,discrepancy.json:CHG-284055F35C
+REVIEW-0041,TRUE_POSITIVE,Change approval mismatch in CHG-09974CD049: Unapproved actor 'svc-unapproved',discrepancy.json:CHG-09974CD049
+REVIEW-0020,FALSE_POSITIVE,Valid approved change record CHG-83A0AE75FC covering asset asset-021 and actor svc-021,discrepancy.json:CHG-83A0AE75FC
+REVIEW-0383,FALSE_POSITIVE,Valid approved change record CHG-E32D42A673 covering asset asset-048 and actor svc-024,discrepancy.json:CHG-E32D42A673
+REVIEW-0229,FALSE_POSITIVE,Valid approved change record CHG-8AC79423DD covering asset asset-038 and actor svc-014,discrepancy.json:CHG-8AC79423DD
+REVIEW-0357,FALSE_POSITIVE,Valid approved change record CHG-FC807FA53C covering asset asset-022 and actor svc-034,discrepancy.json:CHG-FC807FA53C
+REVIEW-0191,FALSE_POSITIVE,Valid approved change record CHG-09F465F49C covering asset asset-048 and actor svc-012,discrepancy.json:CHG-09F465F49C
+REVIEW-0334,FALSE_POSITIVE,Valid approved change record CHG-E1B88A0ED6 covering asset asset-047 and actor svc-011,discrepancy.json:CHG-E1B88A0ED6
+REVIEW-0286,TRUE_POSITIVE,Change approval mismatch in CHG-C7ED273A86: Invalid approver 'requestor-only',discrepancy.json:CHG-C7ED273A86
+REVIEW-0048,FALSE_POSITIVE,Valid approved change record CHG-434F5AB897 covering asset asset-001 and actor svc-013,discrepancy.json:CHG-434F5AB897
+REVIEW-0207,FALSE_POSITIVE,Valid approved change record CHG-E60A4AADEB covering asset asset-016 and actor svc-028,discrepancy.json:CHG-E60A4AADEB
+REVIEW-0369,FALSE_POSITIVE,Valid approved change record CHG-1804590C48 covering asset asset-034 and actor svc-010,discrepancy.json:CHG-1804590C48
+REVIEW-0360,FALSE_POSITIVE,Valid approved change record CHG-776021E12B covering asset asset-025 and actor svc-001,discrepancy.json:CHG-776021E12B
+REVIEW-0124,TRUE_POSITIVE,Change approval mismatch in CHG-74EF4F21F3: Unmapped asset 'asset-999',discrepancy.json:CHG-74EF4F21F3
+REVIEW-0051,FALSE_POSITIVE,Valid approved change record CHG-310195353E covering asset asset-004 and actor svc-016,discrepancy.json:CHG-310195353E
+REVIEW-0058,TRUE_POSITIVE,Change approval mismatch in CHG-FE6ADC681C: Invalid approver 'requestor-only',discrepancy.json:CHG-FE6ADC681C
+REVIEW-0141,FALSE_POSITIVE,Valid approved change record CHG-C2A1612D74 covering asset asset-046 and actor svc-034,discrepancy.json:CHG-C2A1612D74
+REVIEW-0332,TRUE_POSITIVE,Change approval mismatch in CHG-4CC212FDBC: Unmapped asset 'asset-999',discrepancy.json:CHG-4CC212FDBC
+REVIEW-0106,FALSE_POSITIVE,Valid approved change record CHG-B16799C3D8 covering asset asset-011 and actor svc-035,discrepancy.json:CHG-B16799C3D8
+REVIEW-0274,FALSE_POSITIVE,Valid approved change record CHG-98801237DA covering asset asset-035 and actor svc-023,discrepancy.json:CHG-98801237DA
+REVIEW-0322,FALSE_POSITIVE,Valid approved change record CHG-A7E4B31216 covering asset asset-035 and actor svc-035,discrepancy.json:CHG-A7E4B31216
+REVIEW-0351,FALSE_POSITIVE,Valid approved change record CHG-C20818C42E covering asset asset-016 and actor svc-028,discrepancy.json:CHG-C20818C42E
+REVIEW-0029,FALSE_POSITIVE,Valid approved change record CHG-530A195A6C covering asset asset-030 and actor svc-030,discrepancy.json:CHG-530A195A6C
+REVIEW-0171,FALSE_POSITIVE,Valid approved change record CHG-06BDA17611 covering asset asset-028 and actor svc-028,discrepancy.json:CHG-06BDA17611
+REVIEW-0050,FALSE_POSITIVE,Valid approved change record CHG-4E8F777856 covering asset asset-003 and actor svc-015,discrepancy.json:CHG-4E8F777856
+REVIEW-0039,FALSE_POSITIVE,Valid approved change record CHG-EB5D212A70 covering asset asset-040 and actor svc-004,discrepancy.json:CHG-EB5D212A70
+REVIEW-0318,FALSE_POSITIVE,Valid approved change record CHG-7A9FD6947B covering asset asset-031 and actor svc-031,discrepancy.json:CHG-7A9FD6947B
+REVIEW-0308,FALSE_POSITIVE,Valid approved change record CHG-9B8F85524C covering asset asset-021 and actor svc-021,discrepancy.json:CHG-9B8F85524C
+REVIEW-0319,FALSE_POSITIVE,Valid approved change record CHG-F7B4F22E08 covering asset asset-032 and actor svc-032,discrepancy.json:CHG-F7B4F22E08
+REVIEW-0265,FALSE_POSITIVE,Valid approved change record CHG-3343CCA81A covering asset asset-026 and actor svc-014,discrepancy.json:CHG-3343CCA81A
+REVIEW-0054,FALSE_POSITIVE,Valid approved change record CHG-8F7B962551 covering asset asset-007 and actor svc-019,discrepancy.json:CHG-8F7B962551
+REVIEW-0088,TRUE_POSITIVE,Change approval mismatch in CHG-2AA3EEC5D6: Unmapped asset 'asset-999',discrepancy.json:CHG-2AA3EEC5D6
+REVIEW-0158,FALSE_POSITIVE,Valid approved change record CHG-756C6C665B covering asset asset-015 and actor svc-015,discrepancy.json:CHG-756C6C665B
+REVIEW-0225,TRUE_POSITIVE,Change approval mismatch in CHG-C77B50CE24: Unapproved actor 'svc-unapproved',discrepancy.json:CHG-C77B50CE24
+REVIEW-0047,FALSE_POSITIVE,Valid approved change record CHG-F7D15EC9E1 covering asset asset-048 and actor svc-012,discrepancy.json:CHG-F7D15EC9E1
+REVIEW-0249,TRUE_POSITIVE,Change approval mismatch in CHG-5652CE73DC: Unapproved actor 'svc-unapproved',discrepancy.json:CHG-5652CE73DC
+REVIEW-0325,FALSE_POSITIVE,Valid approved change record CHG-79C0450A57 covering asset asset-038 and actor svc-002,discrepancy.json:CHG-79C0450A57
+REVIEW-0067,TRUE_POSITIVE,Change approval mismatch in CHG-182D5C0DB6: Status is PENDING,discrepancy.json:CHG-182D5C0DB6
+REVIEW-0199,FALSE_POSITIVE,Valid approved change record CHG-14EC44477E covering asset asset-008 and actor svc-020,discrepancy.json:CHG-14EC44477E
+REVIEW-0338,FALSE_POSITIVE,Valid approved change record CHG-C1E1FE52D4 covering asset asset-003 and actor svc-015,discrepancy.json:CHG-C1E1FE52D4
+REVIEW-0042,TRUE_POSITIVE,Change approval mismatch in CHG-964621A3A5: Invalid approver 'requestor-only',discrepancy.json:CHG-964621A3A5
+REVIEW-0361,FALSE_POSITIVE,Valid approved change record CHG-E600418B84 covering asset asset-026 and actor svc-002,discrepancy.json:CHG-E600418B84
+REVIEW-0006,FALSE_POSITIVE,Valid approved change record CHG-CD155DC7BE covering asset asset-007 and actor svc-007,discrepancy.json:CHG-CD155DC7BE
+REVIEW-0061,TRUE_POSITIVE,Change approval mismatch in CHG-CA17469EDA: Unapproved actor 'svc-unapproved',discrepancy.json:CHG-CA17469EDA
+REVIEW-0329,FALSE_POSITIVE,Valid approved change record CHG-0696878B2E covering asset asset-042 and actor svc-006,discrepancy.json:CHG-0696878B2E
+REVIEW-0283,TRUE_POSITIVE,Change approval mismatch in CHG-CB4E5C8F2B: Status is PENDING,discrepancy.json:CHG-CB4E5C8F2B
+REVIEW-0178,TRUE_POSITIVE,Change approval mismatch in CHG-B44110C0C7: Invalid approver 'requestor-only',discrepancy.json:CHG-B44110C0C7
+REVIEW-0135,FALSE_POSITIVE,Valid approved change record CHG-B07A4F07F0 covering asset asset-040 and actor svc-028,discrepancy.json:CHG-B07A4F07F0
+REVIEW-0346,FALSE_POSITIVE,Valid approved change record CHG-BA80662F63 covering asset asset-011 and actor svc-023,discrepancy.json:CHG-BA80662F63
+REVIEW-0025,FALSE_POSITIVE,Valid approved change record CHG-712CCE252A covering asset asset-026 and actor svc-026,discrepancy.json:CHG-712CCE252A
+REVIEW-0011,FALSE_POSITIVE,Valid approved change record CHG-45D31210F5 covering asset asset-012 and actor svc-012,discrepancy.json:CHG-45D31210F5
+REVIEW-0013,FALSE_POSITIVE,Valid approved change record CHG-63847E15FD covering asset asset-014 and actor svc-014,discrepancy.json:CHG-63847E15FD
+REVIEW-0001,FALSE_POSITIVE,Valid approved change record CHG-0D0551F019 covering asset asset-002 and actor svc-002,discrepancy.json:CHG-0D0551F019
+REVIEW-0104,FALSE_POSITIVE,Valid approved change record CHG-794AB537BE covering asset asset-009 and actor svc-033,discrepancy.json:CHG-794AB537BE
+REVIEW-0028,FALSE_POSITIVE,Valid approved change record CHG-E8D828D86D covering asset asset-029 and actor svc-029,discrepancy.json:CHG-E8D828D86D
+REVIEW-0241,FALSE_POSITIVE,Valid approved change record CHG-D2DAC04F77 covering asset asset-002 and actor svc-026,discrepancy.json:CHG-D2DAC04F77

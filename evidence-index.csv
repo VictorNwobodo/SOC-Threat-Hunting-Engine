@@ -1,0 +1,6 @@
+claim_id,claim_type,description,raw_locator,evidence_marker
+CLAIM-01,QUARANTINE,Malformed and missing timestamp rows quarantined,auth.jsonl:1,UBI-A5-A5A237F69D5D
+CLAIM-02,DISCREPANCY,80 FP and 16 TP classified against change records,discrepancy.json:CHG-4EB0C65B03,UBI-A5-A5A237F69D5D
+CLAIM-03,CAMPAIGN_ALPHA,Credential abuse to endpoint execution correlation,auth.jsonl:150,UBI-A5-A5A237F69D5D
+CLAIM-04,CAMPAIGN_BETA,Web request to DNS query beaconing correlation,web.jsonl:200,UBI-A5-A5A237F69D5D
+CLAIM-05,CAMPAIGN_GAMMA,Endpoint process to Firewall denial correlation,endpoint.jsonl:300,UBI-A5-A5A237F69D5D

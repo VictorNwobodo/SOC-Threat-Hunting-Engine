@@ -1,0 +1,468 @@
+{
+  "campaigns": [
+    {
+      "name": "Campaign Alpha - Credential Abuse & Execution",
+      "query_file": "campaign_alpha.sql"
+    },
+    {
+      "name": "Campaign Beta - Web Recon & DNS Beaconing",
+      "query_file": "campaign_beta.sql"
+    },
+    {
+      "name": "Campaign Gamma - Privilege Escalation & Lateral Denial",
+      "query_file": "campaign_gamma.sql"
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "cam-edge-1",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:123891",
+        "endpoint.jsonl:136027"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-2",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:124801",
+        "endpoint.jsonl:135106"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-3",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:124902",
+        "endpoint.jsonl:136057"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-4",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:124424",
+        "endpoint.jsonl:131927"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-5",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:123463",
+        "endpoint.jsonl:128416"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-6",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:123125",
+        "endpoint.jsonl:122450"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-7",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:123369",
+        "endpoint.jsonl:114593"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-8",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:123849",
+        "endpoint.jsonl:111632"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-9",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:124337",
+        "endpoint.jsonl:107438"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-10",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:124906",
+        "endpoint.jsonl:119057"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-11",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:122929",
+        "endpoint.jsonl:116996"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-12",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:124582",
+        "endpoint.jsonl:116845"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-13",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:124924",
+        "endpoint.jsonl:107360"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-14",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:123153",
+        "endpoint.jsonl:89065"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-15",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:123438",
+        "endpoint.jsonl:95291"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-16",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:124046",
+        "endpoint.jsonl:97009"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-17",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:123188",
+        "endpoint.jsonl:94432"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-18",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:124430",
+        "endpoint.jsonl:93656"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-19",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:124289",
+        "endpoint.jsonl:92659"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-20",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:124073",
+        "endpoint.jsonl:83105"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-21",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:124045",
+        "endpoint.jsonl:97274"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-22",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:124117",
+        "endpoint.jsonl:98363"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-23",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:124348",
+        "endpoint.jsonl:89984"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-24",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:122983",
+        "endpoint.jsonl:76162"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-25",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:123752",
+        "endpoint.jsonl:70463"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-26",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:124829",
+        "endpoint.jsonl:62936"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-27",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:123089",
+        "endpoint.jsonl:67859"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-28",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:124660",
+        "endpoint.jsonl:60745"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-29",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:124783",
+        "endpoint.jsonl:72191"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-30",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:123766",
+        "endpoint.jsonl:53695"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-31",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:124681",
+        "endpoint.jsonl:39634"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-32",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:123484",
+        "endpoint.jsonl:66988"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-33",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:124401",
+        "endpoint.jsonl:48944"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-34",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:124168",
+        "endpoint.jsonl:56366"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-35",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:123363",
+        "endpoint.jsonl:43082"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-36",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:124525",
+        "endpoint.jsonl:37097"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-37",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:123738",
+        "endpoint.jsonl:37367"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-38",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:124279",
+        "endpoint.jsonl:24032"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-39",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:123786",
+        "endpoint.jsonl:18784"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-40",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:123749",
+        "endpoint.jsonl:38957"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-41",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:124446",
+        "endpoint.jsonl:139687"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-42",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:122914",
+        "endpoint.jsonl:28558"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-43",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:123142",
+        "endpoint.jsonl:14459"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-44",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:123106",
+        "endpoint.jsonl:21845"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-45",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:122956",
+        "endpoint.jsonl:5446"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-46",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:124347",
+        "endpoint.jsonl:141889"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-47",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:123821",
+        "endpoint.jsonl:5785"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-48",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:124842",
+        "endpoint.jsonl:142945"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-49",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:123243",
+        "endpoint.jsonl:142438"
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "edge_id": "cam-edge-50",
+      "campaign_name": "Campaign Alpha - Credential Abuse & Execution",
+      "locators": [
+        "auth.jsonl:123585",
+        "endpoint.jsonl:146294"
+      ],
+      "confidence": "HIGH"
+    }
+  ]
+}

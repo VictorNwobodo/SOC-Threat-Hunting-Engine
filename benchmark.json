@@ -1,0 +1,1 @@
+{"evidence_marker":"UBI-A5-A5A237F69D5D","total_runtime_seconds":12.45,"peak_memory_mb":45.2,"total_rows_processed":750000,"accepted_rows":749975,"quarantined_rows":25,"reconciliation_summary":{"false_positives":80,"true_positives":16},"campaign_edges_found":50,"status":"PASS"}
